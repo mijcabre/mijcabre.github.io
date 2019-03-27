@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    text-align: center;
+    background-color: #191919;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 2.5%;
+}
+
+a:hover {
+    color: rgb(88, 240, 0);
+    font-size: 125%;
+    transition: .3s;
+}
+
+header {
+    margin-bottom: 15%;
+}
+
+.welcome-content {
+
+}
+
+.about-me-content {
+    visibility: hidden;
+    height: 0;
+
+}
+
+.education-content {
+    visibility: hidden;
+    height: 0;
+
+}
+
+.work-history-content {
+    visibility: hidden;
+    height: 0;
+}
+
+.personal-project-content {
+    visibility: hidden;
+    height: 0;
+}
+
+.business-queries-content {
+    visibility: hidden;
+    height: 0;
+}
+
+.line-break {
+    height: 20%;
+    text-decoration: underline;
+}
+
+hr {
+    width: 70%;
+    border: 1px solid rgb(88, 240, 0);
+    /* color: rgb(88, 240, 0); */
+}
+
+footer {
+    height: 12%;
+    position: fixed;
+    bottom: 1%;
+    width: 100%;
+}
